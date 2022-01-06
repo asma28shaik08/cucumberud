@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="extentreportSuite">
+<listeners>
+<listener class-name="com/testingxpertsdemo/cucumberud.RunCucumberTest"></listener>
+</listeners>
+  <test name="productTest">
+  <classes>
+  <class name="com/testingxpertsdemo/cucumberud.StepDefinitions"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

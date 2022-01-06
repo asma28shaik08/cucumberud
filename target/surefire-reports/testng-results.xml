@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.testingxpertsdemo.cucumberud.RunCucumberTest" duration-ms="61737" started-at="2022-01-06T13:02:19 IST" finished-at="2022-01-06T13:03:20 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingxpertsdemo.cucumberud.RunCucumberTest@6737fd8f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="61737" started-at="2022-01-06T13:02:19 IST" finished-at="2022-01-06T13:03:20 IST">
+      <class name="com.testingxpertsdemo.cucumberud.RunCucumberTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testingxpertsdemo.cucumberud.RunCucumberTest@6737fd8f]" name="setUpClass" is-config="true" duration-ms="341" started-at="2022-01-06T13:02:19 IST" finished-at="2022-01-06T13:02:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="onStart()[pri:0, instance:com.testingxpertsdemo.cucumberud.RunCucumberTest@6737fd8f]" name="onStart" is-config="true" duration-ms="205" started-at="2022-01-06T13:02:19 IST" finished-at="2022-01-06T13:02:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onStart -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingxpertsdemo.cucumberud.RunCucumberTest@6737fd8f]" name="runScenario" duration-ms="60621" started-at="2022-01-06T13:02:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-06T13:03:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the user is able to add a product to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="onFinish()[pri:0, instance:com.testingxpertsdemo.cucumberud.RunCucumberTest@6737fd8f]" name="onFinish" is-config="true" duration-ms="507" started-at="2022-01-06T13:03:20 IST" finished-at="2022-01-06T13:03:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onFinish -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testingxpertsdemo.cucumberud.RunCucumberTest@6737fd8f]" name="tearDownClass" is-config="true" duration-ms="23" started-at="2022-01-06T13:03:20 IST" finished-at="2022-01-06T13:03:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testingxpertsdemo.cucumberud.RunCucumberTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.testingxpertsdemo.cucumberud.RunCucumberTest -->
+</testng-results>
